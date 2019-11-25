@@ -1,0 +1,12 @@
+[submodule "Album"]
+	path = Album
+	url = https://github.com/appleEmily/Album.git
+[submodule "profile"]
+	path = profile
+	url = https://github.com/appleEmily/profile.git
+[submodule "Anzan"]
+	path = Anzan
+	url = https://github.com/appleEmily/Anzan.git
+[submodule "sound_Nov"]
+	path = sound_Nov
+	url = https://github.com/appleEmily/sound_Nov.git
