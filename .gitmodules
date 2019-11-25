@@ -1,12 +1,12 @@
 [submodule "Album"]
-	path = Album
+	path = iPhoneHW/Album
 	url = https://github.com/appleEmily/Album.git
 [submodule "profile"]
-	path = profile
+	path = iPhoneHW/profile
 	url = https://github.com/appleEmily/profile.git
 [submodule "Anzan"]
-	path = Anzan
+	path = iPhoneHW/Anzan
 	url = https://github.com/appleEmily/Anzan.git
 [submodule "sound_Nov"]
-	path = sound_Nov
+	path = iPhoneHW/sound_Nov
 	url = https://github.com/appleEmily/sound_Nov.git
