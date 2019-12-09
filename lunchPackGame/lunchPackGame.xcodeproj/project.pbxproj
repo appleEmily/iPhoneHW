@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10AB25423913D9600A1C2B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB25323913D9600A1C2B5 /* AppDelegate.swift */; };
+		A10AB25623913D9600A1C2B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB25523913D9600A1C2B5 /* SceneDelegate.swift */; };
+		A10AB25823913D9600A1C2B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB25723913D9600A1C2B5 /* ViewController.swift */; };
+		A10AB25B23913D9600A1C2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AB25923913D9600A1C2B5 /* Main.storyboard */; };
+		A10AB25D23913D9A00A1C2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10AB25C23913D9A00A1C2B5 /* Assets.xcassets */; };
+		A10AB26023913D9A00A1C2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10AB25E23913D9A00A1C2B5 /* LaunchScreen.storyboard */; };
+		A10AB26B23913D9B00A1C2B5 /* lunchPackGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB26A23913D9B00A1C2B5 /* lunchPackGameTests.swift */; };
+		A10AB27623913D9B00A1C2B5 /* lunchPackGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10AB27523913D9B00A1C2B5 /* lunchPackGameUITests.swift */; };
+		A1245AC4239E29D900C06932 /* lunchBox.png in Resources */ = {isa = PBXBuildFile; fileRef = A1245AC3239E29D900C06932 /* lunchBox.png */; };
+		A1BA15B123975F1600DD2174 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA15B023975F1600DD2174 /* resultViewController.swift */; };
+		A1BA15B323975F2100DD2174 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA15B223975F2100DD2174 /* gameViewController.swift */; };
+		A1BA15D12398110E00DD2174 /* asupara.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15C82398110E00DD2174 /* asupara.png */; };
+		A1BA15D22398110E00DD2174 /* tako.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15C92398110E00DD2174 /* tako.png */; };
+		A1BA15D32398110E00DD2174 /* tomato.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CA2398110E00DD2174 /* tomato.png */; };
+		A1BA15D42398110E00DD2174 /* karaage.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CB2398110E00DD2174 /* karaage.png */; };
+		A1BA15D52398110E00DD2174 /* tamago.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CC2398110E00DD2174 /* tamago.png */; };
+		A1BA15D62398110E00DD2174 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CD2398110E00DD2174 /* shake.png */; };
+		A1BA15D72398110E00DD2174 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CE2398110E00DD2174 /* egg.png */; };
+		A1BA15D92398110E00DD2174 /* onigiri.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15D02398110E00DD2174 /* onigiri.png */; };
+		A1C935EB2398414400290055 /* bro.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935E92398414400290055 /* bro.png */; };
+		A1C935EC2398414400290055 /* hijiki.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935EA2398414400290055 /* hijiki.png */; };
+		A1C935F02398499000290055 /* panpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935EF2398499000290055 /* panpkin.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10AB26723913D9B00A1C2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10AB24823913D9600A1C2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10AB24F23913D9600A1C2B5;
+			remoteInfo = lunchPackGame;
+		};
+		A10AB27223913D9B00A1C2B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A10AB24823913D9600A1C2B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A10AB24F23913D9600A1C2B5;
+			remoteInfo = lunchPackGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A10AB25023913D9600A1C2B5 /* lunchPackGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lunchPackGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AB25323913D9600A1C2B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A10AB25523913D9600A1C2B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A10AB25723913D9600A1C2B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A10AB25A23913D9600A1C2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A10AB25C23913D9A00A1C2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A10AB25F23913D9A00A1C2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A10AB26123913D9A00A1C2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10AB26623913D9B00A1C2B5 /* lunchPackGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunchPackGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AB26A23913D9B00A1C2B5 /* lunchPackGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lunchPackGameTests.swift; sourceTree = "<group>"; };
+		A10AB26C23913D9B00A1C2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10AB27123913D9B00A1C2B5 /* lunchPackGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lunchPackGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10AB27523913D9B00A1C2B5 /* lunchPackGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lunchPackGameUITests.swift; sourceTree = "<group>"; };
+		A10AB27723913D9C00A1C2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1245AC3239E29D900C06932 /* lunchBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lunchBox.png; sourceTree = "<group>"; };
+		A1BA15B023975F1600DD2174 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		A1BA15B223975F2100DD2174 /* gameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
+		A1BA15C82398110E00DD2174 /* asupara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asupara.png; sourceTree = "<group>"; };
+		A1BA15C92398110E00DD2174 /* tako.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tako.png; sourceTree = "<group>"; };
+		A1BA15CA2398110E00DD2174 /* tomato.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tomato.png; sourceTree = "<group>"; };
+		A1BA15CB2398110E00DD2174 /* karaage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = karaage.png; sourceTree = "<group>"; };
+		A1BA15CC2398110E00DD2174 /* tamago.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tamago.png; sourceTree = "<group>"; };
+		A1BA15CD2398110E00DD2174 /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
+		A1BA15CE2398110E00DD2174 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
+		A1BA15D02398110E00DD2174 /* onigiri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onigiri.png; sourceTree = "<group>"; };
+		A1C935E92398414400290055 /* bro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bro.png; path = ../bro.png; sourceTree = "<group>"; };
+		A1C935EA2398414400290055 /* hijiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hijiki.png; path = ../hijiki.png; sourceTree = "<group>"; };
+		A1C935EF2398499000290055 /* panpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panpkin.png; path = ../1x/panpkin.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A10AB24D23913D9600A1C2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26323913D9B00A1C2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26E23913D9B00A1C2B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A10AB24723913D9600A1C2B5 = {
+			isa = PBXGroup;
+			children = (
+				A10AB25223913D9600A1C2B5 /* lunchPackGame */,
+				A10AB26923913D9B00A1C2B5 /* lunchPackGameTests */,
+				A10AB27423913D9B00A1C2B5 /* lunchPackGameUITests */,
+				A10AB25123913D9600A1C2B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A10AB25123913D9600A1C2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A10AB25023913D9600A1C2B5 /* lunchPackGame.app */,
+				A10AB26623913D9B00A1C2B5 /* lunchPackGameTests.xctest */,
+				A10AB27123913D9B00A1C2B5 /* lunchPackGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A10AB25223913D9600A1C2B5 /* lunchPackGame */ = {
+			isa = PBXGroup;
+			children = (
+				A10AB25323913D9600A1C2B5 /* AppDelegate.swift */,
+				A10AB25523913D9600A1C2B5 /* SceneDelegate.swift */,
+				A10AB25723913D9600A1C2B5 /* ViewController.swift */,
+				A1BA15B223975F2100DD2174 /* gameViewController.swift */,
+				A10AB25923913D9600A1C2B5 /* Main.storyboard */,
+				A10AB25C23913D9A00A1C2B5 /* Assets.xcassets */,
+				A10AB25E23913D9A00A1C2B5 /* LaunchScreen.storyboard */,
+				A10AB26123913D9A00A1C2B5 /* Info.plist */,
+				A1BA15B023975F1600DD2174 /* resultViewController.swift */,
+				A1BA15C72398110E00DD2174 /* lunch */,
+			);
+			path = lunchPackGame;
+			sourceTree = "<group>";
+		};
+		A10AB26923913D9B00A1C2B5 /* lunchPackGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A10AB26A23913D9B00A1C2B5 /* lunchPackGameTests.swift */,
+				A10AB26C23913D9B00A1C2B5 /* Info.plist */,
+			);
+			path = lunchPackGameTests;
+			sourceTree = "<group>";
+		};
+		A10AB27423913D9B00A1C2B5 /* lunchPackGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A10AB27523913D9B00A1C2B5 /* lunchPackGameUITests.swift */,
+				A10AB27723913D9C00A1C2B5 /* Info.plist */,
+			);
+			path = lunchPackGameUITests;
+			sourceTree = "<group>";
+		};
+		A1BA15C72398110E00DD2174 /* lunch */ = {
+			isa = PBXGroup;
+			children = (
+				A1245AC3239E29D900C06932 /* lunchBox.png */,
+				A1C935EF2398499000290055 /* panpkin.png */,
+				A1C935E92398414400290055 /* bro.png */,
+				A1C935EA2398414400290055 /* hijiki.png */,
+				A1BA15C82398110E00DD2174 /* asupara.png */,
+				A1BA15C92398110E00DD2174 /* tako.png */,
+				A1BA15CA2398110E00DD2174 /* tomato.png */,
+				A1BA15CB2398110E00DD2174 /* karaage.png */,
+				A1BA15CC2398110E00DD2174 /* tamago.png */,
+				A1BA15CD2398110E00DD2174 /* shake.png */,
+				A1BA15CE2398110E00DD2174 /* egg.png */,
+				A1BA15D02398110E00DD2174 /* onigiri.png */,
+			);
+			name = lunch;
+			path = ../../lunch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A10AB24F23913D9600A1C2B5 /* lunchPackGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AB27A23913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGame" */;
+			buildPhases = (
+				A10AB24C23913D9600A1C2B5 /* Sources */,
+				A10AB24D23913D9600A1C2B5 /* Frameworks */,
+				A10AB24E23913D9600A1C2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lunchPackGame;
+			productName = lunchPackGame;
+			productReference = A10AB25023913D9600A1C2B5 /* lunchPackGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A10AB26523913D9B00A1C2B5 /* lunchPackGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AB27D23913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGameTests" */;
+			buildPhases = (
+				A10AB26223913D9B00A1C2B5 /* Sources */,
+				A10AB26323913D9B00A1C2B5 /* Frameworks */,
+				A10AB26423913D9B00A1C2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10AB26823913D9B00A1C2B5 /* PBXTargetDependency */,
+			);
+			name = lunchPackGameTests;
+			productName = lunchPackGameTests;
+			productReference = A10AB26623913D9B00A1C2B5 /* lunchPackGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A10AB27023913D9B00A1C2B5 /* lunchPackGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10AB28023913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGameUITests" */;
+			buildPhases = (
+				A10AB26D23913D9B00A1C2B5 /* Sources */,
+				A10AB26E23913D9B00A1C2B5 /* Frameworks */,
+				A10AB26F23913D9B00A1C2B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10AB27323913D9B00A1C2B5 /* PBXTargetDependency */,
+			);
+			name = lunchPackGameUITests;
+			productName = lunchPackGameUITests;
+			productReference = A10AB27123913D9B00A1C2B5 /* lunchPackGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10AB24823913D9600A1C2B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = emily.com;
+				TargetAttributes = {
+					A10AB24F23913D9600A1C2B5 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					A10AB26523913D9B00A1C2B5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A10AB24F23913D9600A1C2B5;
+					};
+					A10AB27023913D9B00A1C2B5 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = A10AB24F23913D9600A1C2B5;
+					};
+				};
+			};
+			buildConfigurationList = A10AB24B23913D9600A1C2B5 /* Build configuration list for PBXProject "lunchPackGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A10AB24723913D9600A1C2B5;
+			productRefGroup = A10AB25123913D9600A1C2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A10AB24F23913D9600A1C2B5 /* lunchPackGame */,
+				A10AB26523913D9B00A1C2B5 /* lunchPackGameTests */,
+				A10AB27023913D9B00A1C2B5 /* lunchPackGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A10AB24E23913D9600A1C2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA15D42398110E00DD2174 /* karaage.png in Resources */,
+				A1C935EC2398414400290055 /* hijiki.png in Resources */,
+				A1BA15D62398110E00DD2174 /* shake.png in Resources */,
+				A10AB26023913D9A00A1C2B5 /* LaunchScreen.storyboard in Resources */,
+				A1BA15D72398110E00DD2174 /* egg.png in Resources */,
+				A1BA15D22398110E00DD2174 /* tako.png in Resources */,
+				A1245AC4239E29D900C06932 /* lunchBox.png in Resources */,
+				A10AB25D23913D9A00A1C2B5 /* Assets.xcassets in Resources */,
+				A1C935F02398499000290055 /* panpkin.png in Resources */,
+				A1BA15D32398110E00DD2174 /* tomato.png in Resources */,
+				A1BA15D92398110E00DD2174 /* onigiri.png in Resources */,
+				A10AB25B23913D9600A1C2B5 /* Main.storyboard in Resources */,
+				A1C935EB2398414400290055 /* bro.png in Resources */,
+				A1BA15D52398110E00DD2174 /* tamago.png in Resources */,
+				A1BA15D12398110E00DD2174 /* asupara.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26423913D9B00A1C2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26F23913D9B00A1C2B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A10AB24C23913D9600A1C2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AB25823913D9600A1C2B5 /* ViewController.swift in Sources */,
+				A10AB25423913D9600A1C2B5 /* AppDelegate.swift in Sources */,
+				A10AB25623913D9600A1C2B5 /* SceneDelegate.swift in Sources */,
+				A1BA15B323975F2100DD2174 /* gameViewController.swift in Sources */,
+				A1BA15B123975F1600DD2174 /* resultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26223913D9B00A1C2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AB26B23913D9B00A1C2B5 /* lunchPackGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10AB26D23913D9B00A1C2B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10AB27623913D9B00A1C2B5 /* lunchPackGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10AB26823913D9B00A1C2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10AB24F23913D9600A1C2B5 /* lunchPackGame */;
+			targetProxy = A10AB26723913D9B00A1C2B5 /* PBXContainerItemProxy */;
+		};
+		A10AB27323913D9B00A1C2B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A10AB24F23913D9600A1C2B5 /* lunchPackGame */;
+			targetProxy = A10AB27223913D9B00A1C2B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A10AB25923913D9600A1C2B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10AB25A23913D9600A1C2B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A10AB25E23913D9A00A1C2B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A10AB25F23913D9A00A1C2B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A10AB27823913D9C00A1C2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10AB27923913D9C00A1C2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10AB27B23913D9C00A1C2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10AB27C23913D9C00A1C2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A10AB27E23913D9C00A1C2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lunchPackGame.app/lunchPackGame";
+			};
+			name = Debug;
+		};
+		A10AB27F23913D9C00A1C2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lunchPackGame.app/lunchPackGame";
+			};
+			name = Release;
+		};
+		A10AB28123913D9C00A1C2B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lunchPackGame;
+			};
+			name = Debug;
+		};
+		A10AB28223913D9C00A1C2B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 743J7J89D4;
+				INFOPLIST_FILE = lunchPackGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = emily.com.lunchPackGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lunchPackGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10AB24B23913D9600A1C2B5 /* Build configuration list for PBXProject "lunchPackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AB27823913D9C00A1C2B5 /* Debug */,
+				A10AB27923913D9C00A1C2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AB27A23913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AB27B23913D9C00A1C2B5 /* Debug */,
+				A10AB27C23913D9C00A1C2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AB27D23913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AB27E23913D9C00A1C2B5 /* Debug */,
+				A10AB27F23913D9C00A1C2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10AB28023913D9C00A1C2B5 /* Build configuration list for PBXNativeTarget "lunchPackGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10AB28123913D9C00A1C2B5 /* Debug */,
+				A10AB28223913D9C00A1C2B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10AB24823913D9600A1C2B5 /* Project object */;
+}
