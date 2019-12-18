@@ -26,9 +26,9 @@
 		A1BA15D62398110E00DD2174 /* shake.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CD2398110E00DD2174 /* shake.png */; };
 		A1BA15D72398110E00DD2174 /* egg.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15CE2398110E00DD2174 /* egg.png */; };
 		A1BA15D92398110E00DD2174 /* onigiri.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BA15D02398110E00DD2174 /* onigiri.png */; };
-		A1C935EB2398414400290055 /* bro.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935E92398414400290055 /* bro.png */; };
-		A1C935EC2398414400290055 /* hijiki.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935EA2398414400290055 /* hijiki.png */; };
 		A1C935F02398499000290055 /* panpkin.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C935EF2398499000290055 /* panpkin.png */; };
+		A1F8A3C123A33D2D00C76AEE /* bro.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8A3C023A33D2D00C76AEE /* bro.png */; };
+		A1F8A3C323A33D3900C76AEE /* hijiki.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F8A3C223A33D3900C76AEE /* hijiki.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,9 +74,9 @@
 		A1BA15CD2398110E00DD2174 /* shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shake.png; sourceTree = "<group>"; };
 		A1BA15CE2398110E00DD2174 /* egg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg.png; sourceTree = "<group>"; };
 		A1BA15D02398110E00DD2174 /* onigiri.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onigiri.png; sourceTree = "<group>"; };
-		A1C935E92398414400290055 /* bro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bro.png; path = ../bro.png; sourceTree = "<group>"; };
-		A1C935EA2398414400290055 /* hijiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hijiki.png; path = ../hijiki.png; sourceTree = "<group>"; };
 		A1C935EF2398499000290055 /* panpkin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = panpkin.png; path = ../1x/panpkin.png; sourceTree = "<group>"; };
+		A1F8A3C023A33D2D00C76AEE /* bro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bro.png; sourceTree = "<group>"; };
+		A1F8A3C223A33D3900C76AEE /* hijiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hijiki.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,10 +164,10 @@
 			children = (
 				A1245AC3239E29D900C06932 /* lunchBox.png */,
 				A1C935EF2398499000290055 /* panpkin.png */,
-				A1C935E92398414400290055 /* bro.png */,
-				A1C935EA2398414400290055 /* hijiki.png */,
 				A1BA15C82398110E00DD2174 /* asupara.png */,
+				A1F8A3C223A33D3900C76AEE /* hijiki.png */,
 				A1BA15C92398110E00DD2174 /* tako.png */,
+				A1F8A3C023A33D2D00C76AEE /* bro.png */,
 				A1BA15CA2398110E00DD2174 /* tomato.png */,
 				A1BA15CB2398110E00DD2174 /* karaage.png */,
 				A1BA15CC2398110E00DD2174 /* tamago.png */,
@@ -284,7 +284,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BA15D42398110E00DD2174 /* karaage.png in Resources */,
-				A1C935EC2398414400290055 /* hijiki.png in Resources */,
 				A1BA15D62398110E00DD2174 /* shake.png in Resources */,
 				A10AB26023913D9A00A1C2B5 /* LaunchScreen.storyboard in Resources */,
 				A1BA15D72398110E00DD2174 /* egg.png in Resources */,
@@ -295,9 +294,10 @@
 				A1BA15D32398110E00DD2174 /* tomato.png in Resources */,
 				A1BA15D92398110E00DD2174 /* onigiri.png in Resources */,
 				A10AB25B23913D9600A1C2B5 /* Main.storyboard in Resources */,
-				A1C935EB2398414400290055 /* bro.png in Resources */,
+				A1F8A3C323A33D3900C76AEE /* hijiki.png in Resources */,
 				A1BA15D52398110E00DD2174 /* tamago.png in Resources */,
 				A1BA15D12398110E00DD2174 /* asupara.png in Resources */,
+				A1F8A3C123A33D2D00C76AEE /* bro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
