@@ -15,6 +15,8 @@ class GameViewController: UIViewController {
     var index: Int!
     //var imageviewArray: [String] = ["onigiri.png", "tako.png","tomato.png", "karaage.png", "egg.png", "tamago.png", "asupara.png", "shake.png", "bro.png", "hijiki.png", "panpkin.png"]
     var okazuArray: [UIImageView] = []
+    var gapX:CGFloat = 0.0
+    var gapY:CGFloat = 0.0
     
     @IBOutlet weak var setView: UIView!
     
@@ -29,23 +31,9 @@ class GameViewController: UIViewController {
         super.touchesBegan(touches, with: event)
         let touch: UITouch = touches.first!
         let location: CGPoint = touch.location(in: self.setView)
-        //何番めがセットされたか
-        //imageViewArrayのうち、最後に触られているものを動かす。kってやってあげれば良い。
-        //let image: UIImage = UIImage(named: imageviewArray[index - 1])!
-        //imageView.image = image
-        
-        
-        //self.setView.addSubview(imageView)
-        
-    }
-    
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        super.touchesMoved(touches, with: event)
-        
         if let touch = touches.first {
-            // タッチしたビューをviewプロパティで取得する
             if let touchedView = touch.view {
-                let location = touch.location(in: okazuArray.last!)
+                let location = touch.location(in: view)
                 let PreviousLocation = touch.previousLocation(in: self.okazuArray.last!)
                 var frame: CGRect = self.okazuArray.last!.frame
                 //移動した距離を計算する。
@@ -57,25 +45,32 @@ class GameViewController: UIViewController {
                 self.okazuArray.last!.frame = frame
             }
         }
-        
-        
-        //        let firstTouch: UITouch = touches.first!
-        //        //移動した後のポイント
-        //        let location = firstTouch.location(in: okazuArray.last!)
-        //        let PreviousLocation = firstTouch.previousLocation(in: self.okazuArray.last!)
-        //
-        //        //今いるい位置
-        //        var frame: CGRect = self.okazuArray.last!.frame
-        //
-        //        //移動した距離を計算する。
-        //        let deltaX:CGFloat = location.x - PreviousLocation.x
-        //        let deltaY:CGFloat = location.y - PreviousLocation.y
-        //        //originはCGPointだよ。　CGRectはsize,locationをもっている。
-        //        frame.origin.x += deltaX
-        //        frame.origin.y += deltaY
-        
-        
     }
+    
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesMoved(touches, with: event)
+        
+        if let touch = touches.first {
+            // タッチしたビューをviewプロパティで取得する
+            if okazuArray.count > 0 {
+                
+                if let touchedView = touch.view {
+                    let location = touch.location(in: okazuArray.last!)
+                    let PreviousLocation = touch.previousLocation(in: self.okazuArray.last!)
+                    var frame: CGRect = self.okazuArray.last!.frame
+                    //移動した距離を計算する。
+                    
+                    let deltaX:CGFloat = location.x - PreviousLocation.x
+                    let deltaY:CGFloat = location.y - PreviousLocation.y
+                    //originはCGPointだよ。　CGRectはsize,locationをもっている。
+                    frame.origin.x += deltaX
+                    frame.origin.y += deltaY
+                    self.okazuArray.last!.frame = frame
+                }
+            }
+        }
+    }
+    
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
@@ -87,7 +82,7 @@ class GameViewController: UIViewController {
         index = 1
         var imageView = UIImageView()
         imageView.image = UIImage(named: "onigiri.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:90 , height: 90)
         imageView.frame = rec
         //画面上におにぎりを出す。
         self.setView.addSubview(imageView)
@@ -119,7 +114,7 @@ class GameViewController: UIViewController {
         index = 4
         var imageView = UIImageView()
         imageView.image = UIImage(named: "karaage.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:100 , height: 100)
         imageView.frame = rec
         self.setView.addSubview(imageView)
         okazuArray.append(imageView)
@@ -129,7 +124,7 @@ class GameViewController: UIViewController {
         index = 5
         var imageView = UIImageView()
         imageView.image = UIImage(named: "egg.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:95 , height: 95)
         imageView.frame = rec
         self.setView.addSubview(imageView)
         okazuArray.append(imageView)
@@ -150,7 +145,7 @@ class GameViewController: UIViewController {
         index = 7
         var imageView = UIImageView()
         imageView.image = UIImage(named: "asupara.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:90 , height: 90)
         imageView.frame = rec
         self.setView.addSubview(imageView)
         okazuArray.append(imageView)
@@ -160,7 +155,7 @@ class GameViewController: UIViewController {
         index = 8
         var imageView = UIImageView()
         imageView.image = UIImage(named: "ahake.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:110 , height: 110)
         imageView.frame = rec
         self.setView.addSubview(imageView)
         okazuArray.append(imageView)
@@ -170,7 +165,7 @@ class GameViewController: UIViewController {
         index = 9
         var imageView = UIImageView()
         imageView.image = UIImage(named: "bro.png")
-        let rec = CGRect(x: 297, y: 399, width:80 , height: 80)
+        let rec = CGRect(x: 297, y: 399, width:90 , height: 90)
         imageView.frame = rec
         self.setView.addSubview(imageView)
         okazuArray.append(imageView)

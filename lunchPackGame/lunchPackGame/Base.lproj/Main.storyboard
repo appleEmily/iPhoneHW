@@ -33,8 +33,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="start:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oxk-T9-Gq6"/>
-                                    <segue destination="gal-Kd-I3B" kind="presentation" id="Bbj-kQ-JsS"/>
+                                    <segue destination="gal-Kd-I3B" kind="presentation" identifier="game" destinationCreationSelector="game:" id="Bbj-kQ-JsS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0N-Fv-7ZZ">
